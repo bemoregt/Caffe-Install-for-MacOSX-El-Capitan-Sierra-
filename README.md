@@ -6,7 +6,22 @@ https://developer.nvidia.com/cuda-downloads
 
 # Install dependency
 
+brew install boost --with-python
+brew install boost-python
 
+brew install protobuf
+brew install glog
+brew install gflags
+
+brew install leveldb
+brew install lmdb
+
+brew tap homebrew/science
+brew install homebrew/science/hdf5
+
+pip install h5py
+
+brew install numpy
 
 # Install Caffe Github
 
